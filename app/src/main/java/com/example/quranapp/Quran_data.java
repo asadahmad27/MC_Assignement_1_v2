@@ -6364,15 +6364,6 @@ public class Quran_data {
 
     // String[] subset = Arrays.copyOfRange(QuranArabicText, 10, 20);
 
-    public String[] GetData(int StartIndex, int EndIndex) {
-        List<String> listTemp = null;
 
-        for (int i = StartIndex; i < EndIndex; i++) {
-            listTemp.add(QuranArabicText[i].toString());
-        }
-        String[] list = listTemp.toArray(new String[]{});
-
-        return list;
-    }
 
 }
