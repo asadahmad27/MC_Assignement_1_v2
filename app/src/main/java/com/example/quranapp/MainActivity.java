@@ -1,6 +1,8 @@
 package com.example.quranapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +26,17 @@ public class MainActivity extends AppCompatActivity {
         find = findViewById(R.id.find);
         surah_num= findViewById(R.id.Surah_num);
         ayat_num= findViewById(R.id.Ayat_Num);
+
+//        find.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i = new Intent(MainActivity.this,MainActivity2.class);
+//                String s="Hello";
+//                i.putExtra("abc",s);
+//
+//                startActivity(i);
+//            }
+//        });
 
         find.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,4 +63,6 @@ public class MainActivity extends AppCompatActivity {
         ayat.setText((data.QuranArabicText)[0]);
 
     }
+
+
 }

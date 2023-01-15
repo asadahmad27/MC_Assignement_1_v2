@@ -20,7 +20,7 @@
 
     <Button
         android:id="@+id/find"
-        android:layout_width="81dp"
+        android:layout_width="0dp"
         android:layout_height="38dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="32dp"
@@ -51,5 +51,15 @@
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Surah_num" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/find"
+        app:layout_constraintTop_toBottomOf="@+id/Ayat_Num" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
