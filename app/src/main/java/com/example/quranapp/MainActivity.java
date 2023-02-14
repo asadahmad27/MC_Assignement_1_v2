@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://github.com/HasanSuhail47/MS_Assignment_2_QuranApp/commits/main";
+                String url = "https://github.com/asadahmad27/MC_Assignement_1_v2/commits/master";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
