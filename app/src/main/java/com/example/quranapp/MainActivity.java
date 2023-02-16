@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ayat.setText((data.QuranArabicText)[0]);
+//        ayat.setText((data.QuranArabicText)[0]);
 
     }
 

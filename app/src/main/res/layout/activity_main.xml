@@ -22,23 +22,21 @@
         android:id="@+id/find"
         android:layout_width="0dp"
         android:layout_height="38dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="64dp"
         android:text="Find"
         app:layout_constraintBottom_toTopOf="@+id/ayat_display"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Surah_num"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintTop_toBottomOf="@+id/Ayat_Num"
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/ayat_display"
         android:layout_width="279dp"
         android:layout_height="272dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="152dp"
-        android:text="Ayat"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="92dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Surah_num" />
+        app:layout_constraintTop_toBottomOf="@+id/search" />
 
     <EditText
         android:id="@+id/Ayat_Num"
